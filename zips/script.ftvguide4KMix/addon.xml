@@ -1,18 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="repository.MagicMedia-Repo" name="Magic Media" version="1.1" provider-name="Magic Media">
-	<extension point="xbmc.addon.repository" name="Magic Media Repository">
-		<info compressed="false">http://raw.github.com/bloodhod/MagicMedia/master/addons.xml</info>
-		<checksum>http://raw.github.com/bloodhod/MagicMedia/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/bloodhod/MagicMedia/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Magic Media Repository</summary>
-		<description>U can Download and Install Official Addons of Magic Media</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="script.ftvguide4KMix" name="[COLOR orange]Magic Media [/COLOR][COLOR white]Guide Mix[/COLOR]" version="4.1.2" provider-name="rayw1986, bluezed, Magic Media">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -87,4 +73,3 @@
         </assets>
 	</extension>
 </addon>
-</addons>
