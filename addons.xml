@@ -136,4 +136,22 @@
 	<platform>all</platform>
   </extension>
 </addon>
+
+<addon id="script.manageguide" name="Manage Guide" version="1.1.0" provider-name="Magic Media">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py"/>
+	<extension library="service.py" point="xbmc.service" start="startup"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">This addon use to</summary>
+		<language></language>
+		<platform>all</platform>
+		<license>GPLv2</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+	</extension>
+</addon>
 </addons>
